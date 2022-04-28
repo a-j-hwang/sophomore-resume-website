@@ -1,5 +1,5 @@
 # sophomore-resume-website
-A resume website I made for application purpose dyring sophormore year. Please ignore contents as they are not relevent now. (for one, I am a junior now!)
+A resume website I made for application purpose during sophormore year. Please ignore contents as they are not relevent now. (for one, I am a junior now!)
 
 Check it out setted up on github pages:
 https://a-j-hwang.github.io/sophomore-resume-website/
