@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="EUC-KR">
+	<title>Alicia Hwang</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	
+  <link rel="stylesheet" href="animations.css">
+<script type="text/javascript" src="/js/css3-animate-it.js"></script>
+	
+	
+	<link rel="stylesheet" href="style.css">
+
+</head>
+</head>
+<body>
+
+<header><p1>Hello!</p1> <br>My name is Alicia, <br>your new
+	<span id="feature-text"></span>
+	
+	
+	<div class="mySlides flip-in-hor-bottom ">Web designer</div> 
+	<div class="mySlides flip-in-hor-bottom ">Graphic designer</div> 
+	<div class="mySlides flip-in-hor-bottom ">Front-end engineer</div> 
+	<div class="mySlides flip-in-hor-bottom ">UI/UX Designer</div> 
+	<div class="mySlides flip-in-hor-bottom ">Employee</div> 
+	
+	
+	
+	<div class="subAlert blink-2 ">move your mouse around!</div> 
+	</header>
+	
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 1800);    
+}
+</script>
+
+
+<main>
+
+<div class="img-containerFadeout"> 
+	<img src="arrow.png" class="shake-vertical" id="arrow" alt="arrow">
+</div>
+<div class="img-container"> 
+	<img src="roundEdge.png" id="boxStart" alt="box">
+</div>
+
+<div class="container "> 
+
+	<aside>
+	I am a <p2>Sophomore<br></p2>studing <br><p2>Computer Science, <br>Mathematics,</p2><br> and <p2>Design</p2> in <br>New York University
+	</aside>
+
+	<article>
+	<p class="categories">
+	<b>Education</b>
+	</p>
+	<ul>
+	<li>
+		<p class="title">
+		BA in Computer Science and Mathematics<br></p>
+		<p class="subtitle">
+		New York University</p>
+		<ul class="contents">
+		<li>Current cumulative GPA 3.49</li>
+		<li>Prospective graduating year is December 2023.</li>
+		<li>Courses include Operating Systems, Analysis and Basic Algorithms.</li>
+		</ul>
+	</li>
+	
+	<li>
+		<p class="title">
+		Minor in Digital Design<br>
+		</p>
+		<p class="subtitle">
+		New York University <br></p>
+		<p class="contents">
+		
+		</p>
+	</li>
+	
+	
+	</ul>
+
+	<p class="categories" id="work">
+	Work and volunteering experiences
+	</p>
+		<p class="year firstyear">
+		2018/05 - ongoing</p>
+	<ul>
+	<li>
+
+		<p class="title">
+		Founder, Designer and Event manager<br></p>
+		<p class="subtitle">
+		SANARE</p>
+		<p class="contents">
+		Planned and carried out various successful crowdfunding projects related to social justice,
+selling designer goods, and donating the profit to charities.
+</p>
+		<p class="year">
+		2020/05 - 2021/08</p>
+		
+	</li>
+	
+	<li>
+
+		<p class="title">
+		Assistant teacher
+		</p>
+		<p class="subtitle">
+		New York Academy</p>
+		<p class="contents">
+		Assisted students as a mathematics tutor as well as conducting English and coding lessons
+daily. Designed lessons for students of age 7~13 how to code in English, and contributed to
+managing student course tracking system.
+</p>
+		<p class="year">
+		2018/05 - 2021/06</p>
+		
+	</li>
+	
+	<li>
+		<p class="title">
+		Assistant volunteer teacher<br>
+		</p>
+		<p class="subtitle">
+		MJ Christian School</p>
+		<p class="contents">
+		Volunteered to work as an English teacher in a school on the outcast of New Delhi, every
+summer.
+
+		</p>
+		<p class="year">
+		2020/05 - 2020/12</p>
+	</li>
+
+	
+	<li>
+		<p class="title">
+		In-room dining server<br>
+		</p>
+		<p class="subtitle">
+		Just Pizza</p>
+		<p class="contents">
+		Communicating with customers and carrying out trays of food. Caring the hall to keep it clean
+and hygienic.
+		</p>
+		
+	</li>
+	
+	
+	</ul>
+
+
+
+	</article>
+
+
+	<article class="skill">
+	<p class="category" id="skillCat">Skills</p>
+	
+	<div class="graphValue">
+	Adobe Photoshop
+	<br>HTML
+	<br>CSS
+	<br>Javascript
+	<br>Adobe InDesign
+	<br>Adobe Illustrator
+	<br>Adobe After Effects
+	<br>C
+	<br>Java
+	<br>Python
+	</div>
+	
+	
+	<div class="graph rounded-corners" id="graph1"></div>
+	<div class="graph rounded-corners" id="graph2"></div>
+	<div class="graph rounded-corners" id="graph3"></div>
+	<div class="graph rounded-corners" id="graph4"></div>
+	<div class="graph rounded-corners" id="graph5"></div>
+	<div class="graph rounded-corners" id="graph6"></div>
+	<div class="graph rounded-corners" id="graph7"></div>
+	<div class="graph rounded-corners" id="graph8"></div>
+	<div class="graph rounded-corners" id="graph9"></div>
+	<div class="graph rounded-corners" id="graph10"></div>
+	
+	</article>
+
+	<article class="languages">
+	
+	<p class="category" id="languageCat">Languages</p>
+	
+	<div class="graphValue2">
+	English<br>
+	Korean<br>
+	Spanish<br>
+	</div>
+	
+	
+	<div class="graph rounded-corners" id="graph11"></div>
+	<div class="graph rounded-corners" id="graph12"></div>
+	<div class="graph rounded-corners" id="graph13"></div>
+
+
+
+	</article>
+	
+
+<div class="contactDetails">
+
+<p id="contacts">Contacts</p>
+140 E 14th St, Palladium Hall #1115<br>
+alicia.jimin.h@gmail.com<br>
+<b>TEL</b> +1 718-737-4940
+</div>
+
+
+<div class="vl"></div>
+<div class="hl"></div>
+
+
+</div>
+
+
+</main>
+
+
+<div id="gradient"></div>
+
+
+
+
+</body>
+</html>
